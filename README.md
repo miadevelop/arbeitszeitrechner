@@ -1,1 +1,2 @@
-Übungsprojekt zum Berechnen der Arbeitszeit.
+# arbeitszeitrechner
+Learning JavaScript
