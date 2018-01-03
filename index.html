@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<div id="frame">
+<head>
+    <meta charset="utf-8">  
+    <title>Arbeitszeitrechner</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+
+
+    <script src="./objects/main.js" charset="UTF-8"></script>
+    <script src="./objects/hour.js"></script>
+    <script src="./objects/TimeSpan.js"></script>
+
+</head>
+
+<body>
+	<div id="logo">
+	<img src="pic/logo.jpg" width="150" height="100" alt="FI-SP">
+	</div>
+    <h1>Arbeitszeitrechner</h1>
+    <form name="inputform">
+
+
+        <table id="zeit-table" style="width:100%">
+            <tr>
+                <th>Tageszeit</th>
+                <th>Kommt</th>
+                <th>Geht</th>
+                <th>Gesamt</th>
+            </tr>
+
+            <tr>
+                <td>Vormittag</td>
+                <td> <input type="text" name="vormittag_kommt" size="5" value="6:45"></td>
+                <td><input type="text" name="vormittag_geht" size="5" value="11:30"></td>
+                <td><input type="text" name="vormittag_zeit" size="5" value="0"> </td>
+
+            </tr>
+            <tr>
+                <td>Nachmittag</td>
+                <td> <input type="text" name="nachmittag_kommt" size="5" value="12:15"></td>
+                <td> <input type="text" name="nachmittag_geht" size="5" value="15:15"></td>
+                <td> <input type="text" name="nachmittag_zeit" size="5" value="0"> </td>
+            </tr>
+        </table>
+
+        <button id="start-button" type="button" onclick="main()">Berechnen</button>
+		   <p id="demo"></p>
+    </form>
+
+
+</body>
+</div>
+	
+</html>

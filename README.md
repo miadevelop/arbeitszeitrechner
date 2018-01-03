@@ -1,0 +1,1 @@
+Übungsprojekt zum Berechnen der Arbeitszeit.
